@@ -1,0 +1,44 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/org/hubbleprotocol
+notes: >-
+  First-party client libraries published under the @hubbleprotocol npm scope,
+  centered on the hubble-common monorepo (github.com/hubbleprotocol/hubble-common).
+  Hubble is an on-chain Solana protocol with no REST/HTTP API; these TypeScript
+  packages are the developer integration surface. Scope-related indexing code
+  was later moved to the @kamino-finance scope.
+packages:
+- language: typescript
+  registry: npm
+  name: "@hubbleprotocol/hubble-sdk"
+  version: 8.0.4
+  released: '2025-06-30'
+  url: https://www.npmjs.com/package/@hubbleprotocol/hubble-sdk
+  repository: https://github.com/hubbleprotocol/hubble-common
+  install: npm install @hubbleprotocol/hubble-sdk
+  license: Apache-2.0
+  description: >-
+    TypeScript client SDK for accessing Hubble Protocol on-chain data and
+    operations (borrowing market states, HBB staking, USDH stability pool, user
+    loans, treasury, circulating supply, and peg-stability swaps).
+  official: true
+- language: typescript
+  registry: npm
+  name: "@hubbleprotocol/hubble-config"
+  version: 8.0.0
+  released: '2024-09-13'
+  url: https://www.npmjs.com/package/@hubbleprotocol/hubble-config
+  repository: https://github.com/hubbleprotocol/hubble-common
+  install: npm install @hubbleprotocol/hubble-config
+  description: Hubble Protocol configuration (cluster, program IDs, token constants).
+  official: true
+- language: typescript
+  registry: npm
+  name: "@hubbleprotocol/hubble-db"
+  version: 8.0.0
+  released: '2024-09-13'
+  url: https://www.npmjs.com/package/@hubbleprotocol/hubble-db
+  repository: https://github.com/hubbleprotocol/hubble-common
+  install: npm install @hubbleprotocol/hubble-db
+  description: Hubble Protocol database models.
+  official: true

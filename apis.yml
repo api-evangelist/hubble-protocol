@@ -1,9 +1,31 @@
 aid: hubble-protocol
 name: Hubble Protocol
-description: 'Hubble Protocol is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Hubble Protocol is a Solana-based decentralized finance (DeFi) protocol that
+  lets users borrow the USDH stablecoin against multiple crypto collateral
+  assets (SOL, mSOL, stSOL, ETH, BTC and more) with interest-free, fixed-fee
+  loans held open for unlimited time. The protocol pairs a Stability Vault, a
+  Peg Stability Module, a hybrid liquidation model, and native yield on
+  deposited collateral. Developers integrate with Hubble on-chain through its
+  Anchor programs (IDLs published on GitHub) and the open-source
+  "@hubbleprotocol/hubble-sdk" TypeScript client, which exposes borrowing market
+  states, HBB staking and USDH stability-pool data, user loans, treasury and
+  circulating-supply metrics, and peg-stability swaps. Hubble published security
+  audits (Arcadia, Kudelski, Smart State, Sec3) and runs a funded bug-bounty
+  program; its core contributors later built Kamino Finance.
 url: https://raw.githubusercontent.com/api-evangelist/hubble-protocol/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.hubbleprotocol.io/Hubble-URL-Banner.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto Web3
+- DeFi
+- Solana
+- Stablecoin
+- Lending
+- Borrowing
+- Blockchain
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +52,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/hubble-protocol-domain-security.yml
 - type: Website
   url: https://hubbleprotocol.io
+- type: DeveloperPortal
+  url: https://docs.hubbleprotocol.io
+- type: Documentation
+  url: https://docs.hubbleprotocol.io
+- type: GettingStarted
+  url: https://docs.hubbleprotocol.io/overview
+- type: APIReference
+  url: https://github.com/hubbleprotocol/hubble-common/blob/master/packages/hubble-sdk/README.md
+- type: GitHubOrganization
+  url: https://github.com/hubbleprotocol
+- type: Support
+  url: https://discord.gg/b4XqQbbSBk
+- type: Packages
+  url: packages/hubble-protocol-packages.yml
+- type: SDKs
+  url: packages/hubble-protocol-packages.yml
+- type: LLMsTxt
+  url: llms/hubble-protocol-llms.txt
+- type: VulnerabilityDisclosure
+  url: security/hubble-protocol-vulnerability-disclosure.yml
+- type: Security
+  url: security/hubble-protocol-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
