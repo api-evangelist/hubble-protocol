@@ -14,6 +14,17 @@ description: >-
   audits (Arcadia, Kudelski, Smart State, Sec3) and runs a funded bug-bounty
   program; its core contributors later built Kamino Finance.
 url: https://raw.githubusercontent.com/api-evangelist/hubble-protocol/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
